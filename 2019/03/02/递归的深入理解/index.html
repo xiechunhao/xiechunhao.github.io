@@ -17,21 +17,21 @@
   <meta http-equiv="window-target" content="_top">
   
   
-  <title>前端面试题总结 | 谢小豪</title>
-  <meta name="description" content="web 前端面试题 如何实现深拷贝 ​  写一个判断所有数据类型的方法? 1234567891011function fun(TypeDate)&amp;#123;	return Object.prototype.toString.call(TypeDate);&amp;#125;console.log(fun(1));            // [object Number]console.log(fun(&apos;">
-<meta name="keywords" content="面试题">
+  <title>JS 递归的深入理解 | 谢小豪</title>
+  <meta name="description" content="1: 递归 : 在函数内调用函数自己 自己调用自己 结束的条件 了解 函数在调用的时候才会占用内存, 不调用不会占内存 没有递归结束条件的递归就是死递归 会出现堆溢出.    2: 递归的优缺点:优点  代码简洁 在树的前序，中序，后序遍历算法中，递归的实现明显要比循环简单得多。  缺点  递归由于是函数调用自身，而函数调用是有时间和空间的消耗的：每一次函数调用，都需要在内存栈中分配空间以保存参数">
+<meta name="keywords" content="递归">
 <meta property="og:type" content="article">
-<meta property="og:title" content="前端面试题总结">
-<meta property="og:url" content="http://xiehao.xyz/2019/03/01/前端面试题总结/index.html">
+<meta property="og:title" content="JS 递归的深入理解">
+<meta property="og:url" content="http://xiehao.xyz/2019/03/02/递归的深入理解/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="web 前端面试题 如何实现深拷贝 ​  写一个判断所有数据类型的方法? 1234567891011function fun(TypeDate)&amp;#123;	return Object.prototype.toString.call(TypeDate);&amp;#125;console.log(fun(1));            // [object Number]console.log(fun(&apos;">
+<meta property="og:description" content="1: 递归 : 在函数内调用函数自己 自己调用自己 结束的条件 了解 函数在调用的时候才会占用内存, 不调用不会占内存 没有递归结束条件的递归就是死递归 会出现堆溢出.    2: 递归的优缺点:优点  代码简洁 在树的前序，中序，后序遍历算法中，递归的实现明显要比循环简单得多。  缺点  递归由于是函数调用自身，而函数调用是有时间和空间的消耗的：每一次函数调用，都需要在内存栈中分配空间以保存参数">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-01T16:02:03.405Z">
+<meta property="og:updated_time" content="2019-03-02T05:41:03.792Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="前端面试题总结">
-<meta name="twitter:description" content="web 前端面试题 如何实现深拷贝 ​  写一个判断所有数据类型的方法? 1234567891011function fun(TypeDate)&amp;#123;	return Object.prototype.toString.call(TypeDate);&amp;#125;console.log(fun(1));            // [object Number]console.log(fun(&apos;">
+<meta name="twitter:title" content="JS 递归的深入理解">
+<meta name="twitter:description" content="1: 递归 : 在函数内调用函数自己 自己调用自己 结束的条件 了解 函数在调用的时候才会占用内存, 不调用不会占内存 没有递归结束条件的递归就是死递归 会出现堆溢出.    2: 递归的优缺点:优点  代码简洁 在树的前序，中序，后序遍历算法中，递归的实现明显要比循环简单得多。  缺点  递归由于是函数调用自身，而函数调用是有时间和空间的消耗的：每一次函数调用，都需要在内存栈中分配空间以保存参数">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://xiehao.xyz/2019/03/01/前端面试题总结/index.html">
+  <link rel="canonical" href="http://xiehao.xyz/2019/03/02/递归的深入理解/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -217,7 +217,7 @@
   <div class="widget">
     <h3 class="widget-title">分类</h3>
     <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/node-js/">node.js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/web前端/">web前端</a><span class="category-list-count">2</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/node-js/">node.js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/web前端/">web前端</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/第三方接口/">第三方接口</a><span class="category-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -227,7 +227,7 @@
   <div class="widget">
     <h3 class="widget-title">标签</h3>
     <div class="widget-body">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/npm/">npm</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack/">webpack</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/闭包/">闭包</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/面试题/">面试题</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/npm/">npm</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack/">webpack</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/接口/">接口</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/递归/">递归</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/闭包/">闭包</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -237,7 +237,7 @@
   <div class="widget">
     <h3 class="widget-title">标签云</h3>
     <div class="widget-body tagcloud">
-      <a href="/tags/npm/" style="font-size: 13px;">npm</a> <a href="/tags/webpack/" style="font-size: 13px;">webpack</a> <a href="/tags/闭包/" style="font-size: 13px;">闭包</a> <a href="/tags/面试题/" style="font-size: 13px;">面试题</a>
+      <a href="/tags/npm/" style="font-size: 13px;">npm</a> <a href="/tags/webpack/" style="font-size: 13px;">webpack</a> <a href="/tags/接口/" style="font-size: 13px;">接口</a> <a href="/tags/递归/" style="font-size: 13px;">递归</a> <a href="/tags/闭包/" style="font-size: 13px;">闭包</a>
     </div>
   </div>
 
@@ -246,7 +246,7 @@
   <div class="widget">
     <h3 class="widget-title">归档</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">二月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">五月 2017</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">二月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">五月 2017</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -262,13 +262,13 @@
             
             <div class="item-inner">
               <p class="item-category">
-                <a class="category-link" href="/categories/JavaScript/">JavaScript</a>
+                <a class="category-link" href="/categories/第三方接口/">第三方接口</a>
               </p>
               <p class="item-title">
-                <a href="/2019/03/02/闭包的深入理解/" class="title">JS 闭包的深入理解</a>
+                <a href="/2019/03/02/快递单号接口开发API/" class="title">快递单号接口开发API</a>
               </p>
               <p class="item-date">
-                <time datetime="2019-03-02T02:59:12.157Z" itemprop="datePublished">2019-03-02</time>
+                <time datetime="2019-03-02T05:43:25.299Z" itemprop="datePublished">2019-03-02</time>
               </p>
             </div>
           </li>
@@ -277,13 +277,28 @@
             
             <div class="item-inner">
               <p class="item-category">
-                <a class="category-link" href="/categories/web前端/">web前端</a>
+                <a class="category-link" href="/categories/JavaScript/">JavaScript</a>
               </p>
               <p class="item-title">
-                <a href="/2019/03/01/前端面试题总结/" class="title">前端面试题总结</a>
+                <a href="/2019/03/02/递归的深入理解/" class="title">JS 递归的深入理解</a>
               </p>
               <p class="item-date">
-                <time datetime="2019-03-01T15:31:11.269Z" itemprop="datePublished">2019-03-01</time>
+                <time datetime="2019-03-02T05:26:22.432Z" itemprop="datePublished">2019-03-02</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/JavaScript/">JavaScript</a>
+              </p>
+              <p class="item-title">
+                <a href="/2019/03/02/闭包的深入理解/" class="title">JS 闭包的深入理解</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-03-02T02:59:12.157Z" itemprop="datePublished">2019-03-02</time>
               </p>
             </div>
           </li>
@@ -331,14 +346,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-前端面试题总结" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-递归的深入理解" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      前端面试题总结
+      JS 递归的深入理解
     </h1>
   
 
@@ -346,47 +361,72 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2019/03/01/前端面试题总结/" class="article-date">
-	  <time datetime="2019-03-01T15:31:11.269Z" itemprop="datePublished">2019-03-01</time>
+	<a href="/2019/03/02/递归的深入理解/" class="article-date">
+	  <time datetime="2019-03-02T05:26:22.432Z" itemprop="datePublished">2019-03-02</time>
 	</a>
 </span>
         
   <span class="article-category">
     <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/web前端/">web前端</a>
+    <a class="article-category-link" href="/categories/JavaScript/">JavaScript</a>
   </span>
 
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/面试题/">面试题</a>
+	<a class="article-tag-link" href="/tags/递归/">递归</a>
   </span>
 
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/03/01/前端面试题总结/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/03/02/递归的深入理解/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h3 id="web-前端面试题"><a href="#web-前端面试题" class="headerlink" title="web 前端面试题"></a>web 前端面试题</h3><ol>
-<li><p><strong>如何实现深拷贝</strong></p>
-<p>​</p>
+        <h5 id="1-递归-在函数内调用函数自己"><a href="#1-递归-在函数内调用函数自己" class="headerlink" title="1: 递归 : 在函数内调用函数自己"></a>1: 递归 : 在函数内调用函数自己</h5><ul>
+<li>自己调用自己</li>
+<li>结束的条件</li>
+<li>了解<ul>
+<li>函数在调用的时候才会占用内存, 不调用不会占内存</li>
+<li>没有递归结束条件的递归就是死递归 会出现堆溢出.</li>
+</ul>
 </li>
-<li><p><strong>写一个判断所有数据类型的方法?</strong></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">TypeDate</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">Object</span>.prototype.toString.call(TypeDate);</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(fun(<span class="number">1</span>));            <span class="comment">// [object Number]</span></span><br><span class="line"><span class="built_in">console</span>.log(fun(<span class="string">'a'</span>));          <span class="comment">// [object String]</span></span><br><span class="line"><span class="built_in">console</span>.log(fun(<span class="literal">false</span>));        <span class="comment">// [object Boolean]</span></span><br><span class="line"><span class="built_in">console</span>.log(fun(<span class="literal">undefined</span>));    <span class="comment">// [object Undefined]</span></span><br><span class="line"><span class="built_in">console</span>.log(fun(&#123;&#125;));           <span class="comment">// [object Object]</span></span><br><span class="line"><span class="built_in">console</span>.log(fun([]));           <span class="comment">// [object Array]</span></span><br><span class="line"><span class="built_in">console</span>.log(fun(<span class="literal">null</span>));         <span class="comment">// [object Null]</span></span><br><span class="line"><span class="built_in">console</span>.log(fun(<span class="literal">NaN</span>));          <span class="comment">// [object Number]</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>什么是闭包，如何使用它，为什么要使用它？</strong></p>
-</li>
-<li><p>​</p>
-</li>
-<li><p><strong>前端性能监控</strong></p>
-</li>
-<li><p>​</p>
-</li>
-</ol>
+</ul>
+<h5 id="2-递归的优缺点"><a href="#2-递归的优缺点" class="headerlink" title="2: 递归的优缺点:"></a>2: 递归的优缺点:</h5><p>优点</p>
+<ul>
+<li>代码简洁</li>
+<li>在树的前序，中序，后序遍历算法中，递归的实现明显要比循环简单得多。</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>递归由于是函数调用自身，而函数调用是有时间和空间的消耗的：每一次函数调用，都需要在内存栈中分配空间以保存参数、返回地址以及临时变量，而往栈中压入数据和弹出数据都需要时间。-&gt;效率</li>
+<li>递归中很多计算都是重复的，由于其本质是把一个问题分解成两个或者多个小问题，多个小问题存在相互重叠的部分，则存在重复计算，如fibonacci斐波那契数列的递归实现。-&gt; 效率</li>
+<li>调用栈可能会溢出，其实每一次函数调用会在内存栈中分配空间，而每个进程的栈的容量是有限的，当调用的层次太多时，就会超出栈的容量，从而导致栈溢出。-&gt;性能</li>
+</ul>
+<h5 id="3-实例"><a href="#3-实例" class="headerlink" title="3: 实例:"></a>3: 实例:</h5><ul>
+<li>递归实现累计求和:</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getSum</span>(<span class="params">n</span>) </span>&#123;</span><br><span class="line">     <span class="keyword">if</span>(n == <span class="number">1</span>)&#123;</span><br><span class="line">         <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">     &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">         <span class="keyword">return</span> n + getSum(n<span class="number">-1</span>);</span><br><span class="line">     &#125;</span><br><span class="line"> &#125;</span><br><span class="line"><span class="built_in">console</span>.log(getSum(<span class="number">10</span>));	<span class="comment">//55</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>递归实现阶乘:</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getChen</span>(<span class="params">n</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(n == <span class="number">1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> n * getChen(n<span class="number">-1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(getChen(<span class="number">5</span>));	<span class="comment">//120		5*4*3*2*1</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>斐波那契求第N位数的值:出现重复计算: 内存消耗</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">feiBo</span>(<span class="params">n</span>) </span>&#123;</span><br><span class="line">     <span class="keyword">if</span>(n == <span class="number">1</span> || n == <span class="number">2</span>)&#123;</span><br><span class="line">         <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">     &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">         <span class="keyword">return</span> feiBo(n<span class="number">-2</span>) + feiBo(n<span class="number">-1</span>);</span><br><span class="line">     &#125;</span><br><span class="line"> &#125;</span><br><span class="line"><span class="built_in">console</span>.log(feiBo(<span class="number">10</span>));</span><br></pre></td></tr></table></figure>
+<ul>
+<li>递归常用在遍历DOM树下面的所有元素</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//需求：获取id为father元素的所有后代元素</span></span><br><span class="line"><span class="comment">//dom中有没有直接的api可以获取呢？ 没有，只能自己封装函数实现</span></span><br><span class="line"><span class="comment">/*思路</span></span><br><span class="line"><span class="comment">1.写一个函数，遍历这个元素的childred子元素，获取它的子元素</span></span><br><span class="line"><span class="comment">2.让它的每一个子元素继续调用这个函数，遍历子元素的子元素，形成递归调用</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">var</span> father = <span class="built_in">document</span>.getElementById(<span class="string">'father'</span>);</span><br><span class="line"><span class="keyword">var</span> list = [];</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">houDai</span>(<span class="params">ele</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; ele.children.length; i++) &#123;</span><br><span class="line">        list.push(ele.children[i]);</span><br><span class="line">        houDai(ele.children[i]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">houDai(father);</span><br><span class="line"><span class="built_in">console</span>.log(list);</span><br></pre></td></tr></table></figure>
+<ul>
+<li>面试题阶乘，求res值?</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> res = (<span class="function"><span class="keyword">function</span> (<span class="params">n</span>) </span>&#123;<span class="keyword">return</span> n == <span class="number">1</span> ? <span class="number">1</span> : n * <span class="built_in">arguments</span>.callee(n<span class="number">-1</span>)&#125;)(<span class="number">5</span>);</span><br></pre></td></tr></table></figure>
+<p>解析: 就是递归阶乘. arguments.callee()是获取匿名函数的函数名.因为是匿名函数只能通过这样才能获取实现递归</p>
 
       
     </div>
@@ -396,7 +436,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://xiehao.xyz/2019/03/01/前端面试题总结/" title="前端面试题总结" target="_blank" rel="external">http://xiehao.xyz/2019/03/01/前端面试题总结/</a>
+      <a href="http://xiehao.xyz/2019/03/02/递归的深入理解/" title="JS 递归的深入理解" target="_blank" rel="external">http://xiehao.xyz/2019/03/02/递归的深入理解/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -443,12 +483,12 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2019/03/02/闭包的深入理解/" title="JS 闭包的深入理解"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2019/03/02/快递单号接口开发API/" title="快递单号接口开发API"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
     
     <li class="next">
-      <a href="/2019/02/28/npm 介绍及常用命令/" title="npm 介绍及常用命令"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2019/03/02/闭包的深入理解/" title="JS 闭包的深入理解"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
