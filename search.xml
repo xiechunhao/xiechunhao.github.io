@@ -2,8 +2,8 @@
 <search>
   <entry>
     <title><![CDATA[快递单号接口开发API]]></title>
-    <url>%2F2019%2F03%2F02%2F%E5%BF%AB%E9%80%92%E5%8D%95%E5%8F%B7%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91API%2F</url>
-    <content type="text"><![CDATA[1: 递归 : 在函数内调用函数自己]]></content>
+    <url>%2F2019%2F03%2F02%2F%E5%BF%AB%E9%80%92%E5%8D%95%E5%8F%B7%E6%8E%A5%E5%8F%A3API%2F</url>
+    <content type="text"><![CDATA[1: 应用场景：物流信息查询 2: 本接口采用的是聚合数据接口：https://www.juhe.cn/docs/api/id/433: 注册账号申请快递单号接口：获取申请的key 4: 接口参数查看（主要是这三个需要传到服务端） 5: 实现代码12345678910111213141516171819&lt;!-- Jquery保证在1.12及以上 --&gt;&lt;script src="./jquery-1.12.4.js"&gt;&lt;/script&gt;&lt;script&gt; var $key = "870967b6f718e99ceda764f1829c1763"; //申请的商户ID var $kdNumber = "3383748328872"; //快递单号 var $com = "sto"; //快递物流公司简称 如：STO申通 SF顺风等 $.get(&#123; url:'http://v.juhe.cn/exp/index', data:&#123; key : $key, com : $com, no : $kdNumber &#125;, dataType:"jsonp", success:function(data)&#123; console.log(data); &#125; &#125;);&lt;/script&gt; 使用JQuery的Ajax访问（经测试直接访问获取不到数据，因为服务端没有主动设置开放CROS资源共享）浏览器会默认同源策略，所以访问失败。需要设 dataType = “jsonp” 跨域访问。 返回成果的物流信息 6: 查看聚合数据支持的哪些快递公司的查询：https://www.juhe.cn/box/index/id/43]]></content>
       <categories>
         <category>第三方接口</category>
       </categories>

@@ -18,22 +18,26 @@
   
   
   <title>快递单号接口开发API | 谢小豪</title>
-  <meta name="description" content="1: 递归 : 在函数内调用函数自己">
+  <meta name="description" content="1: 应用场景：物流信息查询 2: 本接口采用的是聚合数据接口：https://www.juhe.cn/docs/api/id/433: 注册账号申请快递单号接口：获取申请的key 4:  接口参数查看（主要是这三个需要传到服务端） 5:  实现代码12345678910111213141516171819&amp;lt;!-- Jquery保证在1.12及以上 --&amp;gt;&amp;lt;script src=">
 <meta name="keywords" content="接口">
 <meta property="og:type" content="article">
 <meta property="og:title" content="快递单号接口开发API">
-<meta property="og:url" content="http://xiehao.xyz/2019/03/02/快递单号接口开发API/index.html">
+<meta property="og:url" content="http://xiehao.xyz/2019/03/02/快递单号接口API/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1: 递归 : 在函数内调用函数自己">
+<meta property="og:description" content="1: 应用场景：物流信息查询 2: 本接口采用的是聚合数据接口：https://www.juhe.cn/docs/api/id/433: 注册账号申请快递单号接口：获取申请的key 4:  接口参数查看（主要是这三个需要传到服务端） 5:  实现代码12345678910111213141516171819&amp;lt;!-- Jquery保证在1.12及以上 --&amp;gt;&amp;lt;script src=">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://xiehao.xyz/2019/03/02/快递单号接口开发API/C:/hexo/source/_posts/images/clipboard.png">
-<meta property="og:updated_time" content="2019-03-02T13:05:52.653Z">
+<meta property="og:image" content="http://xiehao.xyz/2019/03/02/快递单号接口API/clipboard.png">
+<meta property="og:image" content="http://xiehao.xyz/2019/03/02/快递单号接口API/clipboard2.png">
+<meta property="og:image" content="http://xiehao.xyz/2019/03/02/快递单号接口API/clipboard3.png">
+<meta property="og:image" content="http://xiehao.xyz/2019/03/02/快递单号接口API/clipboard4.png">
+<meta property="og:image" content="http://xiehao.xyz/2019/03/02/快递单号接口API/clipboard5.png">
+<meta property="og:updated_time" content="2019-03-02T13:43:10.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="快递单号接口开发API">
-<meta name="twitter:description" content="1: 递归 : 在函数内调用函数自己">
-<meta name="twitter:image" content="http://xiehao.xyz/2019/03/02/快递单号接口开发API/C:/hexo/source/_posts/images/clipboard.png">
+<meta name="twitter:description" content="1: 应用场景：物流信息查询 2: 本接口采用的是聚合数据接口：https://www.juhe.cn/docs/api/id/433: 注册账号申请快递单号接口：获取申请的key 4:  接口参数查看（主要是这三个需要传到服务端） 5:  实现代码12345678910111213141516171819&amp;lt;!-- Jquery保证在1.12及以上 --&amp;gt;&amp;lt;script src=">
+<meta name="twitter:image" content="http://xiehao.xyz/2019/03/02/快递单号接口API/clipboard.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://xiehao.xyz/2019/03/02/快递单号接口开发API/index.html">
+  <link rel="canonical" href="http://xiehao.xyz/2019/03/02/快递单号接口API/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -267,7 +271,7 @@
                 <a class="category-link" href="/categories/第三方接口/">第三方接口</a>
               </p>
               <p class="item-title">
-                <a href="/2019/03/02/快递单号接口开发API/" class="title">快递单号接口开发API</a>
+                <a href="/2019/03/02/快递单号接口API/" class="title">快递单号接口开发API</a>
               </p>
               <p class="item-date">
                 <time datetime="2019-03-02T05:43:25.299Z" itemprop="datePublished">2019-03-02</time>
@@ -348,7 +352,7 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-快递单号接口开发API" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-快递单号接口API" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -363,7 +367,7 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2019/03/02/快递单号接口开发API/" class="article-date">
+	<a href="/2019/03/02/快递单号接口API/" class="article-date">
 	  <time datetime="2019-03-02T05:43:25.299Z" itemprop="datePublished">2019-03-02</time>
 	</a>
 </span>
@@ -382,14 +386,25 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/03/02/快递单号接口开发API/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/03/02/快递单号接口API/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h5 id="1-递归-在函数内调用函数自己"><a href="#1-递归-在函数内调用函数自己" class="headerlink" title="1: 递归 : 在函数内调用函数自己"></a>1: 递归 : 在函数内调用函数自己</h5><p><img src="/2019/03/02/快递单号接口开发API/C:/hexo\source\_posts\images\clipboard.png" alt="clipboard"></p>
-
+        <h5 id="1-应用场景：物流信息查询"><a href="#1-应用场景：物流信息查询" class="headerlink" title="1: 应用场景：物流信息查询"></a>1: 应用场景：物流信息查询</h5><p><img src="/2019/03/02/快递单号接口API/clipboard.png" alt="clipboard"></p>
+<h5 id="2-本接口采用的是聚合数据接口：https-www-juhe-cn-docs-api-id-43"><a href="#2-本接口采用的是聚合数据接口：https-www-juhe-cn-docs-api-id-43" class="headerlink" title="2: 本接口采用的是聚合数据接口：https://www.juhe.cn/docs/api/id/43"></a>2: 本接口采用的是聚合数据接口：<a href="https://www.juhe.cn/docs/api/id/43" target="_blank" rel="noopener">https://www.juhe.cn/docs/api/id/43</a></h5><h5 id="3-注册账号申请快递单号接口：获取申请的key"><a href="#3-注册账号申请快递单号接口：获取申请的key" class="headerlink" title="3: 注册账号申请快递单号接口：获取申请的key"></a>3: 注册账号申请快递单号接口：获取申请的key</h5><p><img src="/2019/03/02/快递单号接口API/clipboard2.png" alt="clipboard2"></p>
+<h5 id="4-接口参数查看（主要是这三个需要传到服务端）"><a href="#4-接口参数查看（主要是这三个需要传到服务端）" class="headerlink" title="4:  接口参数查看（主要是这三个需要传到服务端）"></a>4:  接口参数查看（主要是这三个需要传到服务端）</h5><p><img src="/2019/03/02/快递单号接口API/clipboard3.png" alt="clipboard3"></p>
+<h5 id="5-实现代码"><a href="#5-实现代码" class="headerlink" title="5:  实现代码"></a>5:  实现代码</h5><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- Jquery保证在<span class="number">1.12</span>及以上 --&gt;</span><br><span class="line">&lt;script src=<span class="string">"./jquery-1.12.4.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="keyword">var</span> $key = <span class="string">"870967b6f718e99ceda764f1829c1763"</span>;        <span class="comment">//申请的商户ID</span></span><br><span class="line">    <span class="keyword">var</span> $kdNumber = <span class="string">"3383748328872"</span>;                      <span class="comment">//快递单号</span></span><br><span class="line">    <span class="keyword">var</span> $com = <span class="string">"sto"</span>;                                     <span class="comment">//快递物流公司简称 如：STO申通  SF顺风等</span></span><br><span class="line">    $.<span class="keyword">get</span>(&#123;</span><br><span class="line">        url:<span class="string">'http://v.juhe.cn/exp/index'</span>,</span><br><span class="line">        data:&#123;</span><br><span class="line">            key : $key,</span><br><span class="line">            com : $com,</span><br><span class="line">            no : $kdNumber</span><br><span class="line">        &#125;,</span><br><span class="line">        dataType:<span class="string">"jsonp"</span>,</span><br><span class="line">        success:<span class="function"><span class="keyword">function</span>(<span class="params">data</span>)</span>&#123;</span><br><span class="line">            <span class="built_in">console</span>.log(data);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>使用JQuery的Ajax访问（经测试直接访问获取不到数据，因为服务端没有主动设置开放CROS资源共享）浏览器会默认同源策略，所以访问失败。需要设 dataType = “jsonp” 跨域访问。</li>
+</ul>
+<p><img src="/2019/03/02/快递单号接口API/clipboard4.png" alt="clipboard4"></p>
+<ul>
+<li>返回成果的物流信息</li>
+</ul>
+<p><img src="/2019/03/02/快递单号接口API/clipboard5.png" alt="clipboard5"></p>
+<h5 id="6-查看聚合数据支持的哪些快递公司的查询：https-www-juhe-cn-box-index-id-43"><a href="#6-查看聚合数据支持的哪些快递公司的查询：https-www-juhe-cn-box-index-id-43" class="headerlink" title="6:  查看聚合数据支持的哪些快递公司的查询：https://www.juhe.cn/box/index/id/43"></a>6:  查看聚合数据支持的哪些快递公司的查询：<a href="https://www.juhe.cn/box/index/id/43" target="_blank" rel="noopener">https://www.juhe.cn/box/index/id/43</a></h5>
       
     </div>
     <div class="article-footer">
@@ -398,7 +413,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://xiehao.xyz/2019/03/02/快递单号接口开发API/" title="快递单号接口开发API" target="_blank" rel="external">http://xiehao.xyz/2019/03/02/快递单号接口开发API/</a>
+      <a href="http://xiehao.xyz/2019/03/02/快递单号接口API/" title="快递单号接口开发API" target="_blank" rel="external">http://xiehao.xyz/2019/03/02/快递单号接口API/</a>
     </li>
     
     <li class="post-copyright-license">
