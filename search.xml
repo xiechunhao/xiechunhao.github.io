@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[vue-cli 脚手架搭建生产环境]]></title>
     <url>%2F2019%2F03%2F12%2Fvue-cli%20%E8%84%9A%E6%89%8B%E6%9E%B6%E6%90%AD%E5%BB%BA%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[使用 vue-cli 搭建一个开发环境的 vue项目vue-cli 这个构建工具大大降低了webpack的使用难度，支持热更新，有 webpack-dev-server 的支持，相当于启动了一个请求服务器，给你搭建了一个测试环境，只关注开发就OK。在 node 环境中操作。请先安装好 node 环境1. 全局安装 webpack webpack-cli注：webpack 4.X 开始，需要安装 webpack-cli 依赖 ,所以使用这条命令123cnpm install webpack webpack-cli -gwebpack -V //检测是否安装成功2. 全局安装 vue-cli1cnpm install --global vue-cli3.用 vue-cli 构建项目首先在D盘新建一个文件夹 vue-dev 作为项目存放地，然后使用命令行cd进入到项目目录输入命令初始化项目1vue init webpack vue-demovue-demo 是自定义的项目名称，命令执行之后，会在当前目录生成一个以该名称命名的项目文件夹。解释下：回答完毕后上图就开始构建项目了。配置完成后，可以看到目录下多出了一个项目文件夹 vue-demo，然后cd进入这个文件夹：安装依赖1cnpm installnpm install ：安装所有的模块，如果是安装具体的哪个个模块，在install 后面输入模块的名字即可。而只输入install就会按照项目的根目录下的package.json文件中依赖的模块安装（这个文件里面是不允许有任何注释的），每个使用npm管理的项目都有这个文件，是npm操作的入口文件。因为是初始项目，还没有任何模块，所以我用npm install 安装所有的模块。安装完成后，目录中会多出来一个node_modules文件夹，这里放的就是所有依赖的模块。安装完成实验 npm run dev 启动项目现在文件目录结构如下：4. 目录结构仔细看一下这张图：解释下每个文件夹代表的意思5. 把项目部署到生产环境，打包上线注意，自己的项目文件都需要放到 src 文件夹下。在项目开发完成之后，可以输入 npm run build 来进行打包工作。1npm run build打包完成后，会生成 dist 文件夹，里面会生成 index.html 和 static文件夹，如果已经修改了文件路径，可以直接打开本地文件查看。项目上线时，只需要将 dist 文件夹里面的文件放到服务器根目录就行了。这里我们使用 phpStudy 打开的 Apache 服务器，把文件丢到 phpStudy 设置的 WWW 文件跟目录下。因为设置默认是找 index.html 结尾的文件，所以会直接运行 index.html 。]]></content>
+      <categories>
+        <category>vue-cli</category>
+      </categories>
+      <tags>
+        <tag>vue-cli</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[git使用总结]]></title>
