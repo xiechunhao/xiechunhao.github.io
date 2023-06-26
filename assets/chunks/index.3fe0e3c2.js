@@ -1,0 +1,1 @@
+import{_ as e,o as _,c}from"./framework.873b9d65.js";const t={},o={class:"top-bar"};function s(n,a){return _(),c("div",o," 111 ")}const d=e(t,[["render",s],["__scopeId","data-v-233b6cf5"]]);export{d as default};
