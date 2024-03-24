@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=5.0,user-scalable=no,viewport-fit=cover,shrink-to-fit=no" />
+    <link rel="icon" type="image/svg+xml" href="//img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg"/>
+    <meta
+      name="description"
+      content="dapp"
+    />
+    <meta
+      name="keywords"
+      content="dapp"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="<%= BASE_URL %>favicon.ico" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <% if(htmlWebpackPlugin.options.cdn){ %> <% for(var x in htmlWebpackPlugin.options.cdn){ %>
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.options.cdn[x] %>"></script>
+    <% } %> <% } %>
+  </body>
+  <script src="https://g.alicdn.com/code/npm/@ali/room-paas-web-engine/1.8.1/RoomPaasSdk.web.min.js"></script>
+</html>
