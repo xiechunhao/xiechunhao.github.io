@@ -1,1 +1,0 @@
-System.register(["../js/index-legacy.f8cb7a75.js"],(function(e,r){"use strict";var t;return{setters:[e=>{t=e.bs}],execute:function(){e("u",(function(){const e=t().proxy;return()=>function({to:e,url:r,replace:t,$router:n}){e&&n?n[t?"replace":"push"](e):r&&(t?location.replace(r):location.href=r)}(e)})),e("r",{to:[String,Object],url:String,replace:Boolean})}}}));
