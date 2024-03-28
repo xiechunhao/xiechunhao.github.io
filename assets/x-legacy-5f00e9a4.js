@@ -1,0 +1,1 @@
+System.register([],(function(A,B){"use strict";return{execute:function(){A("_","data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAElBMVEUAAABlbnhqamplb3hqan9lbnjiTeSgAAAABXRSTlMA3gzXDMo1LowAAABCSURBVAjXYzBWYGBgYDJmMBUC0orBDI6BCgxMoiJALMSgCGQDCRcgkwEoIAjkAoFyqBEDjIaLw9TB9MHMgZkLswcALgQJ9304KLAAAAAASUVORK5CYII=")}}}));
