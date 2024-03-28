@@ -1,0 +1,1 @@
+System.register(["./_baseExtremum-legacy-c690a0ca.js","../js/index-legacy.f8cb7a75.js"],(function(e,t){"use strict";var n,r;return{setters:[e=>{n=e.b},e=>{r=e.$}],execute:function(){function t(e,t){return e<t}e("m",(function(e){return e&&e.length?n(e,r,t):void 0}))}}}));

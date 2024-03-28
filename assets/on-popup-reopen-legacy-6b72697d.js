@@ -1,0 +1,1 @@
+System.register(["../js/index-legacy.f8cb7a75.js"],(function(t,e){"use strict";var n,s;return{setters:[t=>{n=t.bF,s=t.Z}],execute:function(){t("o",(function(t){const c=n(e,null);c&&s(c,(e=>{e&&t()}))}));const e=t("P",Symbol())}}}));
