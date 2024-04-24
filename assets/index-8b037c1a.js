@@ -1,0 +1,1 @@
+import{_ as o,a as _,c as n,e as s,t}from"../js/index.a2bdf6dc.js";const c={},a={class:"footer-container"},r={class:"companyname"};function i(e,p){return _(),n("div",a,[s("div",r,t(e.$t("footerTips")),1)])}const l=o(c,[["render",i],["__scopeId","data-v-eb2eac5a"],["__file","D:/hfy/zplan_vue3/src/components/Footer/index.vue"]]);export{l as _};
