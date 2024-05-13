@@ -1,0 +1,1 @@
+import{b as o}from"./index.vue_vue_type_style_index_0_lang-e581bd42.js";import{a as s,c as t,e as _,t as n}from"../js/index.9be227b2.js";const a={},c={class:"footer-container"},r={class:"companyname"};function i(e,p){return s(),t("div",c,[_("div",r,n(e.$t("footerTips")),1)])}const m=o(a,[["render",i],["__scopeId","data-v-04aeb760"]]);export{m as _};
