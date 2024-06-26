@@ -1,0 +1,7 @@
+/*!
+ *  build: vue-admin-better 
+ *  vue-admin-beautiful.com 
+ *  https://gitee.com/chu1204505056/vue-admin-better 
+ *  time: 2024-6-26 09:21:57
+ */
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d207b95"],{a26d:function(t,e,r){"use strict";r.r(e),r.d(e,"API_varietyList",(function(){return n})),r.d(e,"API_varietyCreate",(function(){return u})),r.d(e,"API_varietyEdit",(function(){return i})),r.d(e,"API_varietyDelete",(function(){return d})),r.d(e,"API_varietyGet",(function(){return c})),r.d(e,"API_varietyVaccine",(function(){return o})),r.d(e,"API_varietyFeea",(function(){return f})),r.d(e,"API_varietyQuery",(function(){return l}));var a=r("b775");function n(t){return Object(a["default"])({url:"/api/variety/list",method:"get",params:t})}function u(t){return Object(a["default"])({url:"/api/variety/create",method:"post",data:t})}function i(t){return Object(a["default"])({url:"/api/variety/edit/"+t.code,method:"put",data:t})}function d(t){return Object(a["default"])({url:"/api/variety/delete/"+t.code,method:"delete"})}function c(t){return Object(a["default"])({url:"/api/variety/get",method:"get",params:t})}function o(t){return Object(a["default"])({url:"/api/variety/vaccine/"+t.batchCode,method:"get",params:t})}function f(t){return Object(a["default"])({url:"/api/variety/feed/"+t.batchCode,method:"get",params:t})}function l(t){return Object(a["default"])({url:"/api/variety/query",method:"get",params:t})}}}]);
