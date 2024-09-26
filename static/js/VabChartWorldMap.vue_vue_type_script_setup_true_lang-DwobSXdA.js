@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2024-09-26 16:08:17 
+ */
+import{_ as l}from"./index-0MshrXYW.js";import c from"./index-BxqE04xX.js";import{n as _}from"./index-BMViVQGz.js";import{d as i,p as u,a7 as d,o as f,S as g,T as e,W as a,u as h,b7 as b}from"./vsv-element-plus-DDEqdpLt.js";import{a0 as x}from"./vsv-echarts-DDaYnjiH.js";const B=i({name:"VabChartWorldMap",__name:"VabChartWorldMap",props:{title:{type:String,default:""}},setup(n){const t=u({grid:{top:20,right:20,bottom:40,left:40}}),r=async()=>{const{data:o}=await _({url:"https://unpkg.com/echarts@4.9.0/map/json/world.json",method:"get"});setTimeout(()=>{x("world",o),t.geo={map:"world",type:"map",zoom:1.2,roam:!0}},500)};return d(()=>{r()}),(o,w)=>{const s=c,p=l,m=b;return f(),g(m,{lg:8,md:12,sm:24,xl:6,xs:24},{default:e(()=>[a(p,{"body-style":{height:"240px"},skeleton:"",title:n.title},{default:e(()=>[a(s,{option:h(t)},null,8,["option"])]),_:1},8,["title"])]),_:1})}}});export{B as _};
