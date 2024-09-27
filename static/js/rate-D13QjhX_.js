@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2024-09-26 21:23:19 
- */
-import{d as v,b as i,K as l,S as o,B as f,o as V,Y as s,u as m,I as p}from"./vsv-element-plus-CleF0dO9.js";const _={class:"rate-container no-background-container"},w=v({name:"Rate",__name:"rate",setup(x){const n=ref(null),t=ref(null),u=ref(3.7);return(b,e)=>{const r=f("el-rate"),d=f("vab-card");return V(),i("div",_,[l(d,null,{header:o(()=>e[3]||(e[3]=[s("基础用法")])),default:o(()=>[l(r,{modelValue:m(n),"onUpdate:modelValue":e[0]||(e[0]=a=>p(n)?n.value=a:null)},null,8,["modelValue"])]),_:1}),l(d,null,{header:o(()=>e[4]||(e[4]=[s("辅助文字")])),default:o(()=>[l(r,{modelValue:m(t),"onUpdate:modelValue":e[1]||(e[1]=a=>p(t)?t.value=a:null),"show-text":""},null,8,["modelValue"])]),_:1}),l(d,null,{header:o(()=>e[5]||(e[5]=[s("只读")])),default:o(()=>[l(r,{modelValue:m(u),"onUpdate:modelValue":e[2]||(e[2]=a=>p(u)?u.value=a:null),disabled:"","score-template":"{value}","show-score":"","text-color":"var(--el-color-warning)"},null,8,["modelValue"])]),_:1})])}}});export{w as default};
