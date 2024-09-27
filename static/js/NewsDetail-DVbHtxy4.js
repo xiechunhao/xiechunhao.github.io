@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2024-09-27 15:46:00 
- */
-import{f as m,j as p,_ as h}from"./index-BxCyh4rX.js";import{d as v,N as o,o as f,b as g,T as a,$ as y,e as t,a3 as c,u as s}from"./vsv-element-plus-CxGOTlXz.js";import"./vsv-icon-B5tQoIEl.js";import"./vsv-nprogress-DAXSSYSi.js";const b={class:"news-detail-container"},w={class:"title"},q={class:"logo"},N={class:"user"},k={class:"time"},x=["src"],B={class:"article"},D=v({name:"NewsDetail",__name:"NewsDetail",setup(C){const e=useRoute(),n=m(),{delVisitedRoute:i}=n,r=async()=>{await i(p(e,!0)),await history.back()};return(S,V)=>{const _=o("vab-fullscreen"),l=o("el-page-header"),d=o("el-avatar"),u=o("vab-icon");return f(),g("div",b,[a(l,{content:"详情",title:"返回上一页",onBack:r},{extra:y(()=>[a(_)]),_:1}),t("div",w,c(s(e).query.title),1),t("div",q,[a(d,{size:18,src:s(e).query.logo},null,8,["src"]),t("div",N,c(s(e).query.user),1),a(u,{icon:"time-line"}),t("div",k,c(s(e).query.time),1)]),t("img",{alt:"",class:"image",src:s(e).query.image},null,8,x),t("article",B,c(s(e).query.content),1)])}}}),A=h(D,[["__scopeId","data-v-dce32d2a"]]);export{A as default};
