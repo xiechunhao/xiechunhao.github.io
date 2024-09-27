@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2024-09-26 21:23:19 
+ */
+import{d,B as l,o as c,b as v,K as e,S as o,Y as i,n as s}from"./vsv-element-plus-CleF0dO9.js";import{_ as p}from"./index-wMoNB7-P.js";import"./vsv-icon-DrZkBOPN.js";import"./vsv-nprogress-D5kd6v05.js";const m={class:"portal-divider"},u=d({name:"PortalDivider",__name:"PortalDivider",props:{activeMenu:{type:String,default:"portal"}},setup(r){return(f,t)=>{const a=l("vab-link"),n=l("el-divider");return c(),v("div",m,[e(a,{class:s(r.activeMenu==="portal"?"active":""),to:"/portal"},{default:o(()=>t[0]||(t[0]=[i("主页")])),_:1},8,["class"]),e(n,{direction:"vertical"}),e(a,{class:s(r.activeMenu==="product"?"active":""),to:"/product"},{default:o(()=>t[1]||(t[1]=[i("产品简介")])),_:1},8,["class"]),e(n,{direction:"vertical"}),e(a,{class:s(r.activeMenu==="partner"?"active":""),to:"/partner"},{default:o(()=>t[2]||(t[2]=[i("合作伙伴")])),_:1},8,["class"]),e(n,{direction:"vertical"}),e(a,{to:"/index"},{default:o(()=>t[3]||(t[3]=[i("后台管理")])),_:1})])}}}),C=p(u,[["__scopeId","data-v-30bb6c0a"]]);export{C as default};
