@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2024-10-12 15:51:39 
- */
-import{d as c,B as f,o as p,b,K as n,u as r,I as m,ae as _,F as h}from"./vsv-element-plus-CqWB58IK.js";const g=c({__name:"TreeNodeFiltering",setup(x){const a=ref(""),t=ref(),o={children:"children",label:"label"};watch(a,l=>{var e;(e=t.value)==null||e.filter(l)});const d=(l,e)=>l?e.label.includes(l):!0,i=[{id:1,label:"一级 1",children:[{id:4,label:"二级 1-1",children:[{id:9,label:"三级 1-1-1"},{id:10,label:"三级 1-1-2"}]}]},{id:2,label:"一级 2",children:[{id:5,label:"二级 2-1"},{id:6,label:"二级 2-2"}]},{id:3,label:"一级 3",children:[{id:7,label:"二级 3-1"},{id:8,label:"二级 3-2"}]}];return(l,e)=>{const s=f("el-input");return p(),b(h,null,[n(s,{modelValue:r(a),"onUpdate:modelValue":e[0]||(e[0]=u=>m(a)?a.value=u:null),placeholder:"请输入查询条件",style:{"margin-bottom":"10px"}},null,8,["modelValue"]),n(r(_),{ref_key:"treeRef",ref:t,data:i,"default-expand-all":"","filter-node-method":d,props:o},null,512)],64)}}});export{g as default};
