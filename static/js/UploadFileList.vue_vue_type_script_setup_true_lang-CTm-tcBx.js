@@ -1,5 +1,5 @@
 /*!  build: Vue Shop Vite 
      copyright: https://vuejs-core.cn/shop-vite   
-     time: 2024-10-12 16:13:56 
+     time: 2024-10-15 13:32:11 
  */
 import{d as p,r as i,o as d,S as u,T as t,e as r,W as f,a8 as m,u as c,h as g,a9 as _,c1 as b}from"./vsv-element-plus-OoOmiKKG.js";const v=p({__name:"UploadFileList",setup(j){const a=i([{name:"food.jpeg",url:"https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100"},{name:"food2.jpeg",url:"https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100"}]),o=()=>{a.value=a.value.slice(-3)};return(x,e)=>{const l=_,s=b;return d(),u(s,{"file-list":c(a),"onUpdate:fileList":e[0]||(e[0]=n=>g(a)?a.value=n:null),action:"/uploadFile","on-change":o},{tip:t(()=>e[2]||(e[2]=[r("div",{class:"el-upload__tip"},"jpg/png 文件需小于500kb",-1)])),default:t(()=>[f(l,{type:"primary"},{default:t(()=>e[1]||(e[1]=[m("点击上传")])),_:1})]),_:1},8,["file-list"])}}});export{v as _};
