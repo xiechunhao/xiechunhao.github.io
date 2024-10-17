@@ -1,0 +1,1 @@
+import{Y as s}from"./index-ZnvSvhwo.js";function i(e){return s.post("/materials/list",{page:e.page||e.current,page_size:e.page_size||e.pageSize,orderBy:e.orderBy,asc:e.asc,key:e.key,shop_id:e.shop_id})}export{i as A};
