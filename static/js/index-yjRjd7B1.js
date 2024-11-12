@@ -1,1 +1,0 @@
-import{d as o,o as a,a as r,k as s,O as n}from"./index-ZnvSvhwo.js";const d=o({__name:"index",setup(c){const e=s(),t=n().params.path;return e.replace({path:t}),(u,_)=>(a(),r("div"))}});export{d as default};
