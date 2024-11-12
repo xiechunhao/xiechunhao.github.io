@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2024-11-12 16:06:55 
- */
-import{a as l}from"./index-D0bnGtHt.js";import{d as p,N as e,o as u,M as d,$ as n,T as r,a4 as _,u as v}from"./vsv-element-plus-Brnt1GMz.js";import"./vsv-icon-CX0cXpax.js";import"./vsv-nprogress-Cnw-SRAI.js";const C=p({__name:"Branch",setup(f){const s=l(),{theme:t}=storeToRefs(s),o=reactive({tooltip:{trigger:"item"},series:[{name:"访问来源",type:"pie",radius:["40%","80%"],itemStyle:{borderRadius:10,borderColor:"#fff",borderWidth:2},data:[{value:1048,name:"搜索引擎"},{value:735,name:"直接访问"},{value:580,name:"邮件营销"},{value:484,name:"联盟广告"},{value:300,name:"视频广告"}]}]});return watch(t.value,()=>{o.color=[t.value.color]},{immediate:!0}),(b,a)=>{const i=e("vab-icon"),c=e("vab-chart"),m=e("vab-card");return u(),d(m,{"body-style":{height:"210px"},skeleton:""},{header:n(()=>[r(i,{icon:"donut-chart-fill"}),a[0]||(a[0]=_(" 分布 "))]),default:n(()=>[r(c,{option:v(o)},null,8,["option"])]),_:1})}}});export{C as default};
