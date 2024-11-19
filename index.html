@@ -1,36 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="icon" href="/favicon.ico" />
+    <script>
+      (function () {
+        var metaEl = document.createElement('meta');
+        metaEl.setAttribute('name', 'viewport');
+        var responsive = true;
+        try {
+          responsive = JSON.parse(
+            localStorage.getItem('theme') || '{}'
+          ).responsive;
+        } catch (e) {
+          console.error(e);
+        }
+        if (responsive === false) {
+          metaEl.setAttribute('content', 'width=1200, initial-scale=1.0');
+        } else {
+          metaEl.setAttribute(
+            'content',
+            'width=device-width, initial-scale=1.0'
+          );
+          document.documentElement.style.overflowX = 'hidden';
+        }
+        document.head.appendChild(metaEl);
+        if (navigator.userAgent.includes('WebKit')) {
+          document.documentElement.classList.add('is-webkit');
+        }
+      })();
+    </script>
+    <title>Ele Admin Plus</title>
+    <style>
+      .ele-admin-loading {
+        width: 28px;
+        height: 28px;
+        display: grid;
+        grid-gap: 8px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        transform: rotate(45deg);
+        animation: loadingRotate 1.2s infinite linear;
+        position: fixed;
+        top: calc(50% - 14px);
+        left: calc(50% - 14px);
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="webkit" name="renderer"/>
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control">
-  <link href="./favicon.ico" rel="icon" sizes="any">
-  <link href="./favicon.svg" rel="icon" type="image/svg+xml">
-  <link href="./apple-touch-icon-180x180.png" rel="apple-touch-icon">
-  <title>Vue Shop Vite</title>
-  <meta content="Vue Shop Vite 是一款国内领先的基于Vue3 + Vite5 + Element Plus的中后台Admin前端框架" name="description">
-  <link href="./static/css/loading.css" rel="stylesheet">
-  <script type="module" crossorigin src="./static/js/index-CJ7U9r9H.js"></script>
-  <link rel="modulepreload" crossorigin href="./static/js/vsv-element-plus-DDEqdpLt.js">
-  <link rel="modulepreload" crossorigin href="./static/js/vsv-icon-DFkIF_Wl.js">
-  <link rel="modulepreload" crossorigin href="./static/js/vsv-nprogress-CAgsOcyS.js">
-  <link rel="stylesheet" crossorigin href="./static/css/index-DKWY2bOb.css">
-<link rel="manifest" href="./manifest.webmanifest"></head>
+      .ele-admin-loading > i {
+        border-radius: 50%;
+        background: #1677ff;
+      }
 
-<body>
-<noscript>https://vuejs-core.cn/shop-vite</noscript>
-<div id="app">
-  <figure>
-    <div class="dot white"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-  </figure>
-</div>
-</body>
+      .ele-admin-loading > i:nth-child(2) {
+        opacity: 0.7;
+      }
 
+      .ele-admin-loading > i:nth-child(3) {
+        opacity: 0.5;
+      }
+
+      .ele-admin-loading > i:nth-child(4) {
+        opacity: 0.3;
+      }
+
+      @keyframes loadingRotate {
+        to {
+          transform: rotate(405deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BF2fBoPb.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ChI7O41v.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="ele-admin-loading">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </div>
+  </body>
 </html>
