@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkele_admin_template"]=self["webpackChunkele_admin_template"]||[]).push([[7109],{97109:function(e,l,n){n.r(l);var t,u,a=n(64008),p={},s=(0,a.A)(p,t,u,!1,null,null,null);l["default"]=s.exports}}]);
