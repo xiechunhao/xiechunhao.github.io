@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-08 15:47:29 
+ */
+import{_ as l}from"./index.vue_vue_type_script_setup_true_lang-CHRyiO5u.js";import{V as u}from"./vue-json-viewer-2LK6abYd.js";import{c as d,x as _}from"./index-CzpjYiTj.js";import{d as h,r as f,h as b,w as v,b as P,o as x,Z as o,u as r}from"./vsv-element-plus-B-S50adB.js";import"./vue.runtime.esm-bundler-Ce_iZ8b_.js";import"./vsv-icon-BcEnJ7dJ.js";import"./vsv-nprogress-Bmiy9T8n.js";const V={class:"params-container"},y=h({name:"Params",__name:"params",setup(g){const e=d(),m=_(),{changeTabsMeta:i}=m,t=f(""),a=b({name:"",path:"",params:{id:"111"}}),c=()=>{const s=e.matched[0].children.find(n=>n.name==="Params");t.value=e.path.substring(e.path.lastIndexOf("/")+1,e.path.length),a.name=s.name,a.path=s.path,a.params.id=t.value,i({title:"Params",meta:{title:`Params id=${t.value}`}})};return v(a,()=>{c()},{immediate:!0}),(s,n)=>{const p=l;return x(),P("div",V,[o(p,{title:"Params id="+r(t)},null,8,["title"]),o(r(u),{copyable:"","expand-depth":5,value:r(a)},null,8,["value"])])}}});export{y as default};
