@@ -1,5 +1,5 @@
 /*!  build: Vue Shop Vite 
      copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-02-08 15:10:48 
+     time: 2025-02-08 15:33:27 
  */
 const e=""+new URL("../png/QR-CvToeGk7.png",import.meta.url).href;export{e as Q};

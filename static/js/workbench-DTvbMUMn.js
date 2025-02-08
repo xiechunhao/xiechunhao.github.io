@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-02-08 15:10:48 
- */
-import{d as i,b as l,e,K as t,B as n,a4 as _,u as a,o as p}from"./vsv-element-plus-D84I6Pnf.js";import{_ as h}from"./index-BL5slC2T.js";import"./vsv-icon-DZABqXig.js";import"./vsv-nprogress-0btfRK0G.js";const m={id:"workbench-container",class:"workbench-container vab-data-fullscreen"},b={class:"hidden-sm-and-up",style:{padding:"20px"}},u={class:"hidden-xs-only"},v=i({name:"DataScreen",__name:"workbench",setup(y){const o=ref("60px");return onMounted(()=>{setTimeout(()=>{$baseMessage("点击右上角【全屏】按钮使用效果更佳","success","hey")},1e3),document.querySelectorAll("body")[0].className=""}),(f,s)=>{const r=n("vab-alert"),c=n("workbench-header"),d=n("vab-theme-setting");return p(),l("div",m,[e("div",b,[t(r,{title:"手机端不支持工作台演示",type:"warning"})]),e("div",u,[t(c,{style:_({height:a(o),"line-height":a(o)})},null,8,["style"]),s[0]||(s[0]=e("div",{style:{padding:"30px 40px 0 40px"}},[e("h1",null,"TODO")],-1))]),t(d)])}}}),B=h(v,[["__scopeId","data-v-026e1b13"]]);export{B as default};
