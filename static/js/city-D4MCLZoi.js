@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-08 15:10:48 
+ */
+import{g as f}from"./area-Cbzb4zGy.js";import{d as v,b,K as t,U as d,B as l,u as s,F as u,o as y}from"./vsv-element-plus-D84I6Pnf.js";import"./index-BL5slC2T.js";import"./vsv-icon-DZABqXig.js";import"./vsv-nprogress-0btfRK0G.js";const V={class:"city-container no-background-container"},w=v({name:"City",__name:"city",setup(C){const o=ref([]),r=ref([]),a=ref("110000"),m=async()=>{const{data:{list:c}}=await f();r.value=c};return onBeforeMount(()=>{m()}),(c,e)=>{const p=l("vab-city"),i=l("vab-card"),_=l("el-cascader");return y(),b("div",V,[t(i,{title:"行政区划（分类）"},{default:d(()=>[t(p,{modelValue:s(a),"onUpdate:modelValue":e[0]||(e[0]=n=>u(a)?a.value=n:null)},null,8,["modelValue"])]),_:1}),t(i,{title:"行政区划（默认）"},{default:d(()=>[t(_,{modelValue:s(o),"onUpdate:modelValue":e[1]||(e[1]=n=>u(o)?o.value=n:null),clearable:"",filterable:"",options:s(r),props:{label:"name",value:"code"}},null,8,["modelValue","options"])]),_:1})])}}});export{w as default};

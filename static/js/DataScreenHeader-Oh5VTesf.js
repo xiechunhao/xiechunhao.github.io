@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-08 15:10:48 
+ */
+import{_ as i}from"./index-BL5slC2T.js";import{A as r,o as m,U as a,K as e,e as o,B as n}from"./vsv-element-plus-D84I6Pnf.js";import"./vsv-icon-DZABqXig.js";import"./vsv-nprogress-0btfRK0G.js";const p={},f={class:"data-screen-header hidden-xs-only"},u={class:"data-go-home"},v={class:"data-screen-header hidden-sm-and-up mobile-only"},h={class:"data-go-home"};function b(x,t){const s=n("vab-icon"),l=n("vab-link"),c=n("vab-fullscreen"),d=n("el-col"),_=n("el-row");return m(),r(_,null,{default:a(()=>[e(d,{span:24},{default:a(()=>[o("div",f,[e(l,{target:"_blank",to:"/index"},{default:a(()=>[o("div",u,[e(s,{icon:"home-2-line"})])]),_:1}),t[0]||(t[0]=o("span",null,"Vue Shop Vite 数据大屏",-1)),e(c,{class:"data-fullscreen"})]),o("div",v,[e(l,{target:"_blank",to:"/index"},{default:a(()=>[o("div",h,[e(s,{icon:"home-2-line"})])]),_:1}),t[1]||(t[1]=o("div",{class:"mobile-title"},"数据大屏",-1)),e(c,{class:"data-fullscreen"})])]),_:1})]),_:1})}const w=i(p,[["render",b],["__scopeId","data-v-5c6fda6d"]]);export{w as default};
