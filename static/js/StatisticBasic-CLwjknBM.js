@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-08 14:17:33 
+ */
+import{d as r,N as o,o as p,M as u,$ as t,T as e,e as f,a4 as i,u as _,bp as d,bq as m}from"./vsv-element-plus-CxGOTlXz.js";import{_ as x}from"./index-vqJMV2wg.js";import"./vsv-icon-B5tQoIEl.js";import"./vsv-nprogress-DAXSSYSi.js";const v={style:{display:"inline-flex","align-items":"center"}},B=r({__name:"StatisticBasic",setup(b){return(y,a)=>{const s=o("el-statistic"),l=o("el-col"),n=o("el-icon"),c=o("el-row");return p(),u(c,null,{default:t(()=>[e(l,{span:6},{default:t(()=>[e(s,{title:"每日活跃用户",value:268500})]),_:1}),e(l,{span:6},{default:t(()=>[e(s,{value:138},{title:t(()=>[f("div",v,[a[0]||(a[0]=i(" 男女比例 ")),e(n,{size:12,style:{"margin-left":"4px"}},{default:t(()=>[e(_(d))]),_:1})])]),suffix:t(()=>a[1]||(a[1]=[i("/100")])),_:1})]),_:1}),e(l,{span:6},{default:t(()=>[e(s,{title:"交易总额",value:172e3})]),_:1}),e(l,{span:6},{default:t(()=>[e(s,{title:"反馈编号",value:562},{suffix:t(()=>[e(n,{style:{"vertical-align":"-0.125em"}},{default:t(()=>[e(_(m))]),_:1})]),_:1})]),_:1})]),_:1})}}}),V=x(B,[["__scopeId","data-v-b03b35ce"]]);export{V as default};

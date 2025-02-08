@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-08 14:17:33 
+ */
+import{d as i,N as d,o as c,M as V,$ as n,T as l,u as p,k as _}from"./vsv-element-plus-CxGOTlXz.js";const w=i({__name:"SegmentedBasic",setup(g){const a=ref("周一"),t=ref("周一"),s=ref("周一"),u=["周一","周二","周三","周四","周五","周六","周日"];return(v,e)=>{const m=d("el-segmented"),r=d("el-col"),f=d("el-row");return c(),V(f,{gutter:20},{default:n(()=>[l(r,{span:24},{default:n(()=>[l(m,{modelValue:p(a),"onUpdate:modelValue":e[0]||(e[0]=o=>_(a)?a.value=o:null),options:u,size:"large",style:{"margin-bottom":"var(--el-margin)"}},null,8,["modelValue"])]),_:1}),l(r,{span:24},{default:n(()=>[l(m,{modelValue:p(t),"onUpdate:modelValue":e[1]||(e[1]=o=>_(t)?t.value=o:null),options:u,size:"default",style:{"margin-bottom":"var(--el-margin)"}},null,8,["modelValue"])]),_:1}),l(r,{span:24},{default:n(()=>[l(m,{modelValue:p(s),"onUpdate:modelValue":e[2]||(e[2]=o=>_(s)?s.value=o:null),options:u,size:"small"},null,8,["modelValue"])]),_:1})]),_:1})}}});export{w as default};
