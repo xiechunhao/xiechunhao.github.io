@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-12 09:55:11 
+ */
+import l from"./ImagePreview-D1lNaZwV.js";import s from"./ImageLazyLoad-rnEu7KDw.js";import u from"./ImageLoadFailed-Rv5d6gLI.js";import d from"./ImagePlaceholder-cvDcehuJ.js";import{_ as c}from"./index-7_yC4cAw.js";import f from"./ImageBasicUsage-9ceUgPLj.js";import{d as g,b as x,o as b,Z as n,T as e,a7 as _}from"./vsv-element-plus-B-S50adB.js";import"./index-I0Q3W04Q.js";import"./vsv-icon-BcEnJ7dJ.js";import"./vsv-nprogress-Bmiy9T8n.js";const k={class:"image-container no-background-container"},j=g({name:"Image",__name:"index",setup(v){return(w,o)=>{const m=f,t=c,a=d,r=u,p=s,i=l;return b(),x("div",k,[n(t,null,{header:e(()=>o[0]||(o[0]=[_("基础用法")])),default:e(()=>[n(m)]),_:1}),n(t,null,{header:e(()=>o[1]||(o[1]=[_("占位内容")])),default:e(()=>[n(a)]),_:1}),n(t,null,{header:e(()=>o[2]||(o[2]=[_("加载失败")])),default:e(()=>[n(r)]),_:1}),n(t,null,{header:e(()=>o[3]||(o[3]=[_("懒加载")])),default:e(()=>[n(p)]),_:1}),n(t,null,{header:e(()=>o[4]||(o[4]=[_("图片预览")])),default:e(()=>[n(i)]),_:1})])}}});export{j as default};
