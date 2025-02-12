@@ -1,5 +1,5 @@
 /*!  build: Vue Shop Vite 
      copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-02-12 09:55:11 
+     time: 2025-02-12 16:08:16 
  */
 import{d as _,r as n,cd as i,ce as f,cf as m,cg as v,ch as b,S as t,o,T as s,e as g,Z as y,b as C,X as c,_ as V,ay as h,Y as k,u as r,i as B,cc as S}from"./vsv-element-plus-B-S50adB.js";const x={style:{padding:"calc(var(--el-padding) / 3)"}},E={key:0},D=_({__name:"SegmentedCustomContent",setup(N){const a=n("Apple"),d=n([{label:"苹果",value:"Apple",icon:i},{label:"樱桃",value:"Cherry",icon:f},{label:"葡萄",value:"Grape",icon:m},{label:"橘子",value:"Orange",icon:v},{label:"梨",value:"Pear",icon:b}]);return(j,l)=>{const p=V,u=S;return o(),t(u,{modelValue:r(a),"onUpdate:modelValue":l[0]||(l[0]=e=>B(a)?a.value=e:null),options:r(d)},{default:s(({item:e})=>[g("div",x,[y(p,{size:"20"},{default:s(()=>[e&&typeof e=="object"&&e.icon?(o(),t(h(e.icon),{key:0})):c("",!0)]),_:2},1024),e&&typeof e=="object"&&e.label?(o(),C("div",E,k(e&&e.label),1)):c("",!0)])]),_:1},8,["modelValue","options"])}}});export{D as _};

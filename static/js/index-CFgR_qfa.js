@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-12 16:08:16 
+ */
+import m from"./CarouselVertical-WndMr0Gs.js";import p from"./CarouselCard-YseT8Rsp.js";import i from"./CarouselArrows-Ci8lJ_8s.js";import u from"./CarouselIndicator-DMBh70sp.js";import{_ as d}from"./index-CcBxCUaS.js";import f from"./CarouselBasic-BVwuG_tx.js";import{d as g,b,o as x,Z as o,T as t,b6 as w,b7 as C}from"./vsv-element-plus-B-S50adB.js";import"./index-BiEcGzGC.js";import"./vsv-icon-DcXMIZgh.js";import"./vsv-nprogress-Bmiy9T8n.js";const h={class:"carousel-container no-background-container"},A=g({name:"Carousel",__name:"index",setup(k){return(v,E)=>{const _=f,n=d,e=u,c=i,r=p,s=m,a=w,l=C;return x(),b("div",h,[o(l,{gutter:20},{default:t(()=>[o(a,{lg:12,md:12,sm:24,xl:12,xs:24},{default:t(()=>[o(n,{title:"基础用法"},{default:t(()=>[o(_)]),_:1}),o(n,{title:"指示器"},{default:t(()=>[o(e)]),_:1}),o(n,{title:"切换箭头"},{default:t(()=>[o(c)]),_:1}),o(n,{title:"卡片模式"},{default:t(()=>[o(r)]),_:1}),o(n,{title:"垂直排列"},{default:t(()=>[o(s)]),_:1})]),_:1})]),_:1})])}}});export{A as default};
