@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-02-28 11:53:44 
- */
-import{d,b as _,e as t,L as n,D as s,Z as o,V as i,o as u,_ as h}from"./vsv-element-plus-DQNbQgVr.js";const p={class:"error-container"},f={class:"error-content"},m={class:"pic-error"},v={class:"bullshit"},b={class:"bullshit-oops"},g={class:"bullshit-headline"},y={class:"bullshit-info"},x=d({name:"ErrorContainer",__name:"ErrorContainer",props:{oops:{type:String,default:""},headline:{type:String,default:""},info:{type:String,default:""},btn:{type:String,default:""},icon:{type:String,default:""}},setup(e){return(C,k)=>{const a=s("vab-icon"),c=s("el-button"),r=s("router-link");return u(),_("div",p,[t("div",f,[t("div",m,[n(a,{class:"error-svg",icon:e.icon,"is-custom-svg":""},null,8,["icon"])]),t("div",v,[t("div",b,o(e.oops),1),t("div",g,o(e.headline),1),t("div",y,o(e.info),1),n(r,{custom:"",to:"/"},{default:i(({navigate:l})=>[n(c,{type:"primary",onClick:l},{default:i(()=>[h(o(e.btn),1)]),_:2},1032,["onClick"])]),_:1})])])])}}});export{x as default};

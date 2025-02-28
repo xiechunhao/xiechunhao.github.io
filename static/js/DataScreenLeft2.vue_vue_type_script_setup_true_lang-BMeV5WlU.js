@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-28 13:58:02 
+ */
+import r from"./index-XVXVrY0H.js";import{d as l,f as m,b6 as e,R as s,o as i,u as c}from"./vsv-element-plus-CcCXTk6v.js";const _=l({name:"DataScreenLeft2",__name:"DataScreenLeft2",setup(u){const a=m({grid:{left:"20px",right:"20px",bottom:"20px",top:"20px",containLabel:!0},tooltip:{trigger:"item"},series:{name:"人群画像",type:"pie",radius:["40%","80%"],itemStyle:{borderRadius:10,borderColor:"#01ffff",borderWidth:2,color:t=>["#385afe","#95de64","#ff7a45","#101e57","#2c3e50"][t.dataIndex]},label:{show:!0,color:"#fff"},data:[{value:e(200,500),name:"学生"},{value:e(200,500),name:"职场青年"},{value:e(200,500),name:"家庭主妇"},{value:e(200,500),name:"退休人员"},{value:e(200,500),name:"企业高管"}]}});return setInterval(()=>{a.series.data=[{value:e(200,500),name:"学生"},{value:e(200,500),name:"职场青年"},{value:e(200,500),name:"家庭主妇"},{value:e(200,500),name:"退休人员"},{value:e(200,500),name:"企业高管"}]},1e3*5),(t,o)=>{const n=r;return i(),s(n,{option:c(a)},null,8,["option"])}}});export{_};

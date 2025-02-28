@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-02-28 11:53:44 
- */
-import{V as p}from"./vue-json-viewer-Bsx0nH-X.js";import{k as u}from"./index-DXRDwnmL.js";import{d,b as h,L as r,u as n,D as _,o as f}from"./vsv-element-plus-DQNbQgVr.js";import"./vue.runtime.esm-bundler-Vd8xTem-.js";import"./vsv-icon-BSoeDgwL.js";import"./vsv-nprogress-BCb6Y0ID.js";const v={class:"params-container"},B=d({name:"Params",__name:"params",setup(b){const e=useRoute(),m=u(),{changeTabsMeta:i}=m,t=ref(""),a=reactive({name:"",path:"",params:{id:"111"}}),c=()=>{const s=e.matched[0].children.find(o=>o.name==="Params");t.value=e.path.substring(e.path.lastIndexOf("/")+1,e.path.length),a.name=s.name,a.path=s.path,a.params.id=t.value,i({title:"Params",meta:{title:`Params id=${t.value}`}})};return watch(a,()=>{c()},{immediate:!0}),(s,o)=>{const l=_("vab-alert");return f(),h("div",v,[r(l,{title:"Params id="+n(t)},null,8,["title"]),r(n(p),{copyable:"","expand-depth":5,value:n(a)},null,8,["value"])])}}});export{B as default};

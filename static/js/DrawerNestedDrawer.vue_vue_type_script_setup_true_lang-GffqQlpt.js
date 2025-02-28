@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-28 13:58:02 
+ */
+import{d as V,r as d,a as v,o as w,a1 as x,Y as o,a7 as b,S as n,a6 as p,ao as _,u as m,i,b as B,F as C}from"./vsv-element-plus-CcCXTk6v.js";const y=V({__name:"DrawerNestedDrawer",setup(g){const t=d(!1),l=d(!1),f=r=>{C.confirm("您还有未保存的数据，确定要继续吗？",{draggable:!0}).then(()=>{r()}).catch(()=>{})};return(r,e)=>{const s=b,u=_;return w(),v(x,null,[o(s,{type:"primary",onClick:e[0]||(e[0]=a=>t.value=!0)},{default:n(()=>e[4]||(e[4]=[p("打开")])),_:1}),o(u,{modelValue:m(t),"onUpdate:modelValue":e[3]||(e[3]=a=>i(t)?t.value=a:null),"append-to-body":"",size:"288px",title:"我是外抽屉"},{default:n(()=>[B("div",null,[o(s,{onClick:e[1]||(e[1]=a=>l.value=!0)},{default:n(()=>e[5]||(e[5]=[p("点我")])),_:1}),o(u,{modelValue:m(l),"onUpdate:modelValue":e[2]||(e[2]=a=>i(l)?l.value=a:null),"append-to-body":"","before-close":f,size:"188px",title:"我是内抽屉"},null,8,["modelValue"])])]),_:1},8,["modelValue"])],64)}}});export{y as _};
