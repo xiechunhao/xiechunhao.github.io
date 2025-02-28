@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-02-28 11:53:44 
+ */
+import{d as _,b as i,L as e,V as a,G as c,u,D as o,_ as p,o as b}from"./vsv-element-plus-DQNbQgVr.js";const x={class:"trade-container"},k=_({name:"GoodsAdd",__name:"agreement",props:{background:{type:String,default:"white"}},setup(v){const l=()=>{};reactive({pageNo:1,pageSize:20});const n=ref(1);return ref(0),ref(!1),ref(!1),ref(!1),ref(!1),ref(!1),ref([{title:"卡密商品",text:"自动发货"},{title:"虚拟商品",text:"人工发货"}]),(V,t)=>{const s=o("RichTextz"),r=o("el-button"),f=o("el-tab-pane"),m=o("el-tabs");return b(),i("div",x,[e(m,{modelValue:u(n),"onUpdate:modelValue":t[0]||(t[0]=d=>c(n)?n.value=d:null)},{default:a(()=>[e(f,{label:"用户协议",name:0},{default:a(()=>[e(s,{class:"mb20"}),e(r,{type:"primary",onClick:l},{default:a(()=>t[1]||(t[1]=[p("提交")])),_:1})]),_:1}),e(f,{label:"隐私协议",name:1},{default:a(()=>[e(s,{class:"mb20"}),e(r,{type:"primary",onClick:l},{default:a(()=>t[2]||(t[2]=[p("提交")])),_:1})]),_:1})]),_:1},8,["modelValue"])])}}});export{k as default};
