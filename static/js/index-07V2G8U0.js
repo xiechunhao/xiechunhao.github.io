@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-02-28 13:58:02 
- */
-import{d as c,bK as t,Q as i,R as a,o as r,u as p,aD as u,bk as y,S as s,U as n,W as f}from"./vsv-element-plus-CcCXTk6v.js";import{_ as m}from"./index-DuUxtc1j.js";const _=c({name:"VabColorfulCard",__name:"index",props:{...t.props,shadow:{type:String,default:"never"},colorFrom:{type:String,default:""},colorTo:{type:String,default:""},title:{type:String,default:""},icon:{type:String,default:""},style:{type:Object,default:()=>{}}},setup(l){const e=l;return(o,b)=>{const d=i("vab-icon");return r(),a(p(t),{"body-style":e.bodyStyle,class:"vab-colorful-card",shadow:e.shadow,style:u(e.style?e.style:{background:`linear-gradient(120deg, ${e.colorFrom} 10%, ${e.colorTo})`})},y({default:s(()=>[e.icon?(r(),a(d,{key:0,icon:e.icon},null,8,["icon"])):f("",!0),n(o.$slots,"default",{},void 0,!0)]),_:2},[o.$slots.header?{name:"header",fn:s(()=>[n(o.$slots,"header",{},void 0,!0)]),key:"0"}:void 0]),1032,["body-style","shadow","style"])}}}),h=m(_,[["__scopeId","data-v-b8c39306"]]);export{h as _};
