@@ -1,0 +1,1 @@
+import{_ as t}from"./Exception-CT0jU53R.js";import{h as s,X as a,N as n,u as e,j as r}from"./vendor-Bhb26uf3.js";import"./index-B2uLNVFs.js";const o=s({__name:"500",setup(s){const o=a({title:"500",desc:"抱歉，服务器出错了",btnText:"返回首页",imgUrl:"/assets/500-DtnECEn9.png"});return(s,a)=>{const i=t;return r(),n(i,{data:e(o)},null,8,["data"])}}});export{o as default};
