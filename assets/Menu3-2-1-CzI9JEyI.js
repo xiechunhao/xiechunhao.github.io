@@ -1,0 +1,1 @@
+import{_ as n}from"./index-jEQxvlyX.js";import{k as s,p as o,j as r}from"./vendor-Bhb26uf3.js";const t={class:"page-content"};const e=n({},[["render",function(n,e){return r(),s("div",t,e[0]||(e[0]=[o("h1",null,"菜单-3-2-1",-1)]))}]]);export{e as default};
