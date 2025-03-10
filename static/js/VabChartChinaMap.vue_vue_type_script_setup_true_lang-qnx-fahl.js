@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-03-10 23:35:01 
+ */
+import{_ as c}from"./index-D0PrCTb9.js";import m from"./index-BgITYDlp.js";import{n as _}from"./index-8bsmFSvN.js";import{d as l,h as u,a6 as h,S as f,o as d,T as a,Z as e,u as g,b6 as b}from"./vsv-element-plus-BKBbsRMj.js";import{a0 as x}from"./vsv-echarts-BbmB9jGw.js";const V=l({name:"VabChartChinaMap",__name:"VabChartChinaMap",props:{title:{type:String,default:""}},setup(n){const t=u({grid:{top:20,right:20,bottom:40,left:40}}),s=async()=>{const{data:o}=await _({url:"https://unpkg.com/echarts@4.9.0/map/json/china.json",method:"get"});setTimeout(()=>{x("china",o),t.geo={map:"china",type:"map",zoom:1.2,roam:!0}},500)};return h(()=>{s()}),(o,C)=>{const p=m,r=c,i=b;return d(),f(i,{lg:8,md:12,sm:24,xl:6,xs:24},{default:a(()=>[e(r,{"body-style":{height:"240px"},skeleton:"",title:n.title},{default:a(()=>[e(p,{option:g(t)},null,8,["option"])]),_:1},8,["title"])]),_:1})}}});export{V as _};

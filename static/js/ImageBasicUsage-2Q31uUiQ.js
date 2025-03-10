@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-03-10 23:35:01 
+ */
+import{d as _,r as o,b as s,o as a,a2 as i,ai as l,e as m,Z as p,Y as d,be as u,u as t}from"./vsv-element-plus-BKBbsRMj.js";import{_ as f}from"./index-8bsmFSvN.js";import"./vsv-icon-BFB3gnxk.js";import"./vsv-nprogress-D6dk31gD.js";const g={class:"demo-image"},h={class:"demonstration"},k=_({__name:"ImageBasicUsage",setup(v){const n=o(["fill","contain","cover","none","scale-down"]),c=o("https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg");return(B,b)=>{const r=u;return a(),s("div",g,[(a(!0),s(i,null,l(t(n),e=>(a(),s("div",{key:e,class:"block"},[m("span",h,d(e),1),p(r,{fit:e,src:t(c)},null,8,["fit","src"])]))),128))])}}}),E=f(k,[["__scopeId","data-v-941ede7c"]]);export{E as default};

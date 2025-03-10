@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-03-10 23:35:01 
+ */
+import{_ as f}from"./index.vue_vue_type_style_index_0_lang-C3thP15Y.js";import{d as v,r,R as d,b,o as B,Z as o,T as t,a8 as w,e as x,u as i,i as C,aH as E}from"./vsv-element-plus-BKBbsRMj.js";import"./index.vue_vue_type_script_setup_true_lang-0mzQKwwt.js";import"./index-D0PrCTb9.js";import"./index-8bsmFSvN.js";import"./vsv-icon-BFB3gnxk.js";import"./vsv-nprogress-D6dk31gD.js";import"./index-_Rumst6h.js";import"./VabQueryFormTopPanel-CnDcjwr0.js";import"./icon-CjkUqblH.js";const I={class:"icon-selector-container"},$=v({name:"IconSelector",__name:"iconSelector",setup(k){const s=r("24-hours-fill"),e=r(!1),c=a=>{s.value=a,e.value=!1};return(a,n)=>{const l=d("vab-icon"),p=w,_=f,m=E;return B(),b("div",I,[o(m,{visible:i(e),"onUpdate:visible":n[0]||(n[0]=u=>C(e)?e.value=u:null),"popper-class":"icon-selector-popper"},{reference:t(()=>[o(p,null,{default:t(()=>[o(l,{icon:i(s)},null,8,["icon"]),n[1]||(n[1]=x("span",null,"图标选择器",-1)),o(l,{icon:"arrow-down-s-line"})]),_:1})]),default:t(()=>[o(_,{onHandleIcon:c})]),_:1},8,["visible"])])}}});export{$ as default};
