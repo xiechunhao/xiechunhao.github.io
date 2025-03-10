@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-03-10 23:35:01 
- */
-import{_ as r}from"./index-8bsmFSvN.js";import{S as n,o as a,T as t,b as c,a2 as _,ai as l,Z as p,bg as u,e as i,Y as m,bf as d}from"./vsv-element-plus-BKBbsRMj.js";import"./vsv-icon-BFB3gnxk.js";import"./vsv-nprogress-D6dk31gD.js";const f={};function g(h,x){const o=u,s=d;return a(),n(s,{height:"180px"},{default:t(()=>[(a(),c(_,null,l(3,e=>p(o,{key:e},{default:t(()=>[i("h3",null,m(e),1)]),_:2},1024)),64))]),_:1})}const E=r(f,[["render",g],["__scopeId","data-v-ba208d97"]]);export{E as default};

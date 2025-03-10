@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-03-10 23:35:01 
- */
-import{d as r,aF as a,b as n,S as i,o,n as d,V as s,e as c,Y as u,T as p,u as f}from"./vsv-element-plus-BKBbsRMj.js";import{_ as b}from"./index-8bsmFSvN.js";const y={key:1,class:"vab-fieldset"},_=r({name:"VabDivider",__name:"index",props:{...a.props,blockquote:{type:Boolean,default:!1},fieldset:{type:Boolean,default:!1},type:{type:String,default:"primary"},isBorder:{type:Boolean,default:!1},title:{type:String,default:""}},setup(l){const e=l;return(t,k)=>e.blockquote?(o(),n("blockquote",{key:0,class:d(["vab-blockquote",e.isBorder?"vab-blockquote-"+e.type+" is-border":"vab-blockquote-"+e.type])},[s(t.$slots,"default",{},void 0,!0)],2)):e.fieldset?(o(),n("fieldset",y,[c("legend",null,u(e.title),1),s(t.$slots,"default",{},void 0,!0)])):(o(),i(f(a),{key:2,"border-style":e.borderStyle,"content-position":e.contentPosition,direction:e.direction},{default:p(()=>[s(t.$slots,"default",{},void 0,!0)]),_:3},8,["border-style","content-position","direction"]))}}),v=b(_,[["__scopeId","data-v-c7988887"]]);export{v as _};

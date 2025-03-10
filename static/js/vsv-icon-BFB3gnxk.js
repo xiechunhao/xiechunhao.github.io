@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-03-10 23:35:01 
- */
-import{d as m,a as d,b as c,u as p,o as r,e as f,n as u}from"./vsv-element-plus-BKBbsRMj.js";const _={},g=["src"],v=["xlink:href"],k=m({name:"VabIcon",__name:"VabIcon",props:{icon:{type:String,required:!0},isCustomSvg:{type:Boolean,default:!1},className:{type:String,default:""}},setup(e){const t=e,n=d(()=>t.className?`vab-icon ${t.className}`:"vab-icon"),o=(s=>/^(https?:|mailto:|tel:|\/\/)/.test(s))(t.icon),a=_.VITE_APP_GITHUB_USER_NAME,l=_.VITE_APP_SECRET_KEY;if(!l||!a||!/==$/.test(l)){const s=()=>{setInterval(()=>{(function(){return location.reload(),!1}).constructor("debugger").call()},50)};try{s()}catch(i){console.log(i)}}return(s,i)=>p(o)?(r(),c("img",{key:0,class:"img-icon",src:e.icon},null,8,g)):e.isCustomSvg?(r(),c("svg",{key:1,"aria-hidden":"true",class:u(n.value)},[f("use",{"xlink:href":"#vab-icon-"+e.icon},null,8,v)],2)):(r(),c("i",{key:2,"aria-hidden":"true",class:u({["ri-"+e.icon]:!0})},null,2))}}),b=(e,t)=>{const n=e.__vccOpts||e;for(const[o,a]of t)n[o]=a;return n},I=b(k,[["__scopeId","data-v-dd41c543"]]);export{I as k};
