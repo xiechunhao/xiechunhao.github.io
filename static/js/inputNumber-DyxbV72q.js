@@ -1,5 +1,5 @@
 /*!  build: Vue Shop Vite 
      copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-03-11 00:13:46 
+     time: 2025-03-11 00:20:55 
  */
 import{d as V,a as _,J as l,U as o,A as f,u as a,D as m,o as b}from"./vsv-element-plus-CWjYVfvE.js";const v={class:"input-number-container no-background-container"},k=V({name:"InputNumber",__name:"inputNumber",setup(c){const d=ref(1),s=ref(1),r=ref(5),i=ref(1),p=ref(1);return(x,e)=>{const t=f("el-input-number"),u=f("vab-card");return b(),_("div",v,[l(u,{title:"基础用法"},{default:o(()=>[l(t,{modelValue:a(d),"onUpdate:modelValue":e[0]||(e[0]=n=>m(d)?d.value=n:null),label:"描述文字",max:10,min:1},null,8,["modelValue"])]),_:1}),l(u,{title:"禁用状态"},{default:o(()=>[l(t,{modelValue:a(s),"onUpdate:modelValue":e[1]||(e[1]=n=>m(s)?s.value=n:null),disabled:!0},null,8,["modelValue"])]),_:1}),l(u,{title:"步长"},{default:o(()=>[l(t,{modelValue:a(r),"onUpdate:modelValue":e[2]||(e[2]=n=>m(r)?r.value=n:null),step:2},null,8,["modelValue"])]),_:1}),l(u,{title:"精度"},{default:o(()=>[l(t,{modelValue:a(i),"onUpdate:modelValue":e[3]||(e[3]=n=>m(i)?i.value=n:null),max:10,precision:2,step:.1},null,8,["modelValue"])]),_:1}),l(u,{title:"按钮位置"},{default:o(()=>[l(t,{modelValue:a(p),"onUpdate:modelValue":e[4]||(e[4]=n=>m(p)?p.value=n:null),"controls-position":"right",max:10,min:1},null,8,["modelValue"])]),_:1})])}}});export{k as default};

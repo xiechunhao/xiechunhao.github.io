@@ -1,5 +1,0 @@
-/*!  build: Vue Shop Vite 
-     copyright: https://vuejs-core.cn/shop-vite   
-     time: 2025-03-11 00:13:46 
- */
-import{V as p}from"./vue-json-viewer-BA7cfJ1t.js";import{f as u}from"./index-D_keMk_X.js";import{d,a as h,J as r,u as n,A as _,o as f}from"./vsv-element-plus-CWjYVfvE.js";import"./index-1E7OnknW.js";import"./vsv-icon-CzoHxvAi.js";import"./vsv-nprogress-D-M_H-zP.js";const v={class:"params-container"},B=d({name:"Params",__name:"params",setup(b){const e=useRoute(),m=u(),{changeTabsMeta:i}=m,t=ref(""),a=reactive({name:"",path:"",params:{id:"111"}}),c=()=>{const s=e.matched[0].children.find(o=>o.name==="Params");t.value=e.path.substring(e.path.lastIndexOf("/")+1,e.path.length),a.name=s.name,a.path=s.path,a.params.id=t.value,i({title:"Params",meta:{title:`Params id=${t.value}`}})};return watch(a,()=>{c()},{immediate:!0}),(s,o)=>{const l=_("vab-alert");return f(),h("div",v,[r(l,{title:"Params id="+n(t)},null,8,["title"]),r(n(p),{copyable:"","expand-depth":5,value:n(a)},null,8,["value"])])}}});export{B as default};
