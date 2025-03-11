@@ -1,0 +1,6 @@
+/*!
+ *  build: Vue  Admin Plus
+ *  copyright: vue-admin-beautiful.com
+ *  time: 2025-03-12 00:28:56
+ */
+"use strict";(self["webpackChunkadmin_plus"]=self["webpackChunkadmin_plus"]||[]).push([[1044,4122],{98475:function(e,n,a){a.r(n),a.d(n,{default:function(){return l}});var t=a(34641);function o(e,n,a,o,r,i){const s=(0,t.g2)("vab-icon"),u=(0,t.g2)("vab-chart"),c=(0,t.g2)("vab-card");return(0,t.uX)(),(0,t.Wv)(c,{class:"branch",shadow:"hover",skeleton:""},{header:(0,t.k6)((()=>[(0,t.Lk)("span",null,[(0,t.bF)(s,{icon:"donut-chart-fill"}),n[0]||(n[0]=(0,t.eW)(" 分布 "))])])),default:(0,t.k6)((()=>[(0,t.bF)(u,{class:"branch-echart","init-options":e.initOptions,option:e.option,theme:"vab-echarts-theme"},null,8,["init-options","option"])])),_:1})}var r=a(17639),i=(0,t.pM)({components:{VabChart:r["default"]},data(){return{initOptions:{renderer:"svg"},option:{tooltip:{trigger:"item"},series:[{name:"访问来源",type:"pie",radius:["50%","70%"],itemStyle:{borderRadius:10,borderColor:"#fff",borderWidth:2},emphasis:{label:{show:!0}},data:[{value:1048,name:"搜索引擎"},{value:735,name:"直接访问"},{value:580,name:"邮件营销"},{value:484,name:"联盟广告"},{value:300,name:"视频广告"}]}]}}}});function s(e){e.__source="src/views/index/components/Branch.vue"}var u=a(48499);"function"===typeof s&&s(i);const c=(0,u.A)(i,[["render",o]]);var l=c}}]);
