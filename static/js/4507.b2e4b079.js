@@ -1,6 +1,0 @@
-/*!
- *  build: Vue  Admin Plus
- *  copyright: vue-admin-beautiful.com
- *  time: 2025-03-12 00:44:12
- */
-"use strict";(self["webpackChunkadmin_plus"]=self["webpackChunkadmin_plus"]||[]).push([[4507],{54507:function(s,e,t){t.r(e),t.d(e,{default:function(){return i}});var u=t(34641);const c={class:"custom-svg-container"};function o(s,e,t,o,a,n){const l=(0,u.g2)("el-alert"),r=(0,u.g2)("vab-icon"),i=(0,u.g2)("vab-card"),v=(0,u.g2)("el-col"),d=(0,u.g2)("el-row");return(0,u.uX)(),(0,u.CE)("div",c,[(0,u.bF)(l,{closable:!1,"show-icon":"",title:"自定义图标演示",type:"success"}),(0,u.bF)(d,{gutter:15},{default:(0,u.k6)((()=>[(0,u.bF)(v,{lg:2,md:3,sm:8,xl:2,xs:6},{default:(0,u.k6)((()=>[(0,u.bF)(i,{shadow:"hover"},{default:(0,u.k6)((()=>[(0,u.bF)(r,{icon:"vab","is-custom-svg":""})])),_:1})])),_:1}),(0,u.bF)(v,{lg:2,md:3,sm:8,xl:2,xs:6},{default:(0,u.k6)((()=>[(0,u.bF)(i,{shadow:"hover"},{default:(0,u.k6)((()=>[(0,u.bF)(r,{icon:"vuejs-fill","is-custom-svg":""})])),_:1})])),_:1})])),_:1})])}var a=(0,u.pM)({name:"CustomSvg",setup(){return{}}});function n(s){s.__source="src/views/vab/icon/customSvg.vue"}var l=t(48499);"function"===typeof n&&n(a);const r=(0,l.A)(a,[["render",o],["__scopeId","data-v-2d7bea05"]]);var i=r}}]);

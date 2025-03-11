@@ -1,6 +1,0 @@
-/*!
- *  build: Vue  Admin Plus
- *  copyright: vue-admin-beautiful.com
- *  time: 2025-03-12 00:44:12
- */
-"use strict";(self["webpackChunkadmin_plus"]=self["webpackChunkadmin_plus"]||[]).push([[4122,9355],{29172:function(e,n,t){t.r(n),t.d(n,{default:function(){return p}});var a=t(34641),o=t(27386);function r(e,n,t,r,i,l){const u=(0,a.g2)("vab-chart"),s=(0,a.g2)("vab-card"),d=(0,a.g2)("el-col");return(0,a.uX)(),(0,a.Wv)(d,{lg:8,md:12,sm:24,xl:6,xs:24},{default:(0,a.k6)((()=>[(0,a.bF)(s,{shadow:"hover",skeleton:""},{header:(0,a.k6)((()=>[(0,a.Lk)("span",null,(0,o.v_)(e.title),1)])),default:(0,a.k6)((()=>[(0,a.bF)(u,{"init-options":e.initOptions,option:e.option,theme:"vab-echarts-theme"},null,8,["init-options","option"])])),_:1})])),_:1})}var i=t(17639),l=(0,a.pM)({name:"VabChartTreemap",components:{VabChart:i["default"]},props:{title:{type:String,default:""}},data(){return{initOptions:{renderer:"svg"},option:{grid:{top:20,right:20,bottom:60,left:40},series:[{type:"treemap",data:[{name:"nodeA",value:10,children:[{name:"nodeAa",value:4},{name:"nodeAb",value:6}]},{name:"nodeB",value:20,children:[{name:"nodeBa",value:20,children:[{name:"nodeBa1",value:20}]}]}]}]}}}});function u(e){e.__source="src/views/other/echarts/components/VabChartTreemap.vue"}var s=t(48499);"function"===typeof u&&u(l);const d=(0,s.A)(l,[["render",r]]);var p=d}}]);
