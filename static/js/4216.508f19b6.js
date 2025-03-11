@@ -1,0 +1,6 @@
+/*!
+ *  build: Vue  Admin Plus
+ *  copyright: vue-admin-beautiful.com
+ *  time: 2025-03-11 22:54:54
+ */
+"use strict";(self["webpackChunkadmin_plus"]=self["webpackChunkadmin_plus"]||[]).push([[4122,4216],{97719:function(t,e,n){n.r(e),n.d(e,{default:function(){return c}});var a=n(34641),o=n(27386);function r(t,e,n,r,i,s){const u=(0,a.g2)("vab-chart"),l=(0,a.g2)("vab-card"),p=(0,a.g2)("el-col");return(0,a.uX)(),(0,a.Wv)(p,{lg:8,md:12,sm:24,xl:6,xs:24},{default:(0,a.k6)((()=>[(0,a.bF)(l,{shadow:"hover",skeleton:""},{header:(0,a.k6)((()=>[(0,a.Lk)("span",null,(0,o.v_)(t.title),1)])),default:(0,a.k6)((()=>[(0,a.bF)(u,{"init-options":t.initOptions,option:t.option,theme:"vab-echarts-theme"},null,8,["init-options","option"])])),_:1})])),_:1})}var i=n(17639),s=(0,a.pM)({name:"VabChartGauge",components:{VabChart:i["default"]},props:{title:{type:String,default:""}},data(){return{initOptions:{renderer:"svg"},option:{grid:{top:20,right:20,bottom:20,left:20},tooltip:{formatter:"{a} <br/>{b} : {c}%"},series:{name:"Pressure",type:"gauge",radius:"100%",progress:{show:!0},detail:{formatter:"{value}",valueAnimation:!0,fontSize:14,offsetCenter:[0,"70%"]},data:[{value:50,name:"SCORE"}]}}}}});function u(t){t.__source="src/views/other/echarts/components/VabChartGauge.vue"}var l=n(48499);"function"===typeof u&&u(s);const p=(0,l.A)(s,[["render",r]]);var c=p}}]);
