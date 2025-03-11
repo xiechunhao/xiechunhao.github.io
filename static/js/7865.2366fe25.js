@@ -1,6 +1,6 @@
 /*!
  *  build: Vue  Admin Plus
  *  copyright: vue-admin-beautiful.com
- *  time: 2025-03-12 00:28:56
+ *  time: 2025-03-12 00:44:12
  */
 "use strict";(self["webpackChunkadmin_plus"]=self["webpackChunkadmin_plus"]||[]).push([[7865,9336],{1264:function(o,n,t){t.r(n),t.d(n,{default:function(){return d}});var e=t(34641);const r={class:"dynamic-anchor-container"};function c(o,n,t,c,a,i){const s=(0,e.g2)("vab-anchor");return(0,e.uX)(),(0,e.CE)("div",r,[(0,e.bF)(s,{"floor-list":o.floorList},{floor0:(0,e.k6)((()=>n[0]||(n[0]=[(0,e.eW)("用户管理")]))),floor1:(0,e.k6)((()=>n[1]||(n[1]=[(0,e.eW)("配置管理")]))),floor2:(0,e.k6)((()=>n[2]||(n[2]=[(0,e.eW)("角色管理")]))),floor3:(0,e.k6)((()=>n[3]||(n[3]=[(0,e.eW)("定时任务补偿")]))),_:1},8,["floor-list"])])}var a=t(38252),i=t(37489),s=(0,e.pM)({name:"DynamicAnchor",components:{VabAnchor:a["default"]},setup(){const o=(0,i.Kh)({floorList:[{title:"用户管理"},{title:"配置管理"},{title:"角色管理"},{title:"定时任务补偿"}]});return{...(0,i.QW)(o)}}});function l(o){o.__source="src/views/other/dynamicAnchor/index.vue"}var u=t(48499);"function"===typeof l&&l(s);const f=(0,u.A)(s,[["render",c],["__scopeId","data-v-c6aaa26c"]]);var d=f}}]);
