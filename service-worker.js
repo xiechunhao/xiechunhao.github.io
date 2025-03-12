@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.97420c4e7db0ff739d67060e659407af.js"
+  "precache-manifest.ab9ac812ca01724202e3ba8a26c20edd.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "admin-pro"});
