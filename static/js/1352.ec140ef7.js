@@ -1,0 +1,6 @@
+/*!
+ *  build: Vue  Admin Plus
+ *  copyright: vue-admin-beautiful.com
+ *  time: 2025-03-14 01:13:42
+ */
+"use strict";(self["webpackChunkadmin_plus"]=self["webpackChunkadmin_plus"]||[]).push([[1352],{1352:function(e,n,t){t.r(n),t.d(n,{default:function(){return f}});var a=t(34641);const c={class:"callback-container"};function o(e,n,t,o,r,i){return(0,a.uX)(),(0,a.CE)("div",c)}var r=t(99462),i=(0,a.pM)({name:"Callback",setup(){const e=(0,a.WQ)("$baseLoading");(0,r.E)(),window.open(" ","_self"),window.close(),(0,a.hi)((()=>{e.close()}))}});function s(e){e.__source="src/views/callback/index.vue"}var l=t(48499);"function"===typeof s&&s(i);const u=(0,l.A)(i,[["render",o]]);var f=u},99462:function(e,n,t){t.d(n,{E:function(){return l},i:function(){return s}});var a=t(62095),c=t(72827),o=t.n(c);let r,i;function s(e,n){return new Promise(((t,a)=>{r=window.open(`${e}?${o().stringify(n)}`),i=setInterval((()=>{if(r&&r.closed){clearInterval(i);const e=JSON.parse(localStorage.getItem("socialData")||"{}");localStorage.removeItem("socialData"),e?t(e):a(e)}}),200)}))}function l(){let e=a.Ay.currentRoute.value.query;"{}"===JSON.stringify(e)&&(e=o().parse(document.location.search.slice(1))),localStorage.setItem("socialData",JSON.stringify(e))}}}]);
