@@ -1,0 +1,1 @@
+import{_ as t}from"./Exception-D8XxgtMl.js";import{h as s,X as a,N as n,u as e,t as r}from"./vendor-CC2XCvy_.js";import"./index-AUd2T663.js";const o=s({__name:"500",setup(s){const o=a({title:"500",desc:"抱歉，服务器出错了",btnText:"返回首页",imgUrl:"/art-design-pro/assets/500-DtnECEn9.png"});return(s,a)=>{const i=t;return r(),n(i,{data:e(o)},null,8,["data"])}}});export{o as default};
