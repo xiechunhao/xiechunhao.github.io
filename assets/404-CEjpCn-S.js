@@ -1,1 +1,0 @@
-import{_ as t}from"./Exception-BLWRdRtk.js";import{d as s,Z as a,L as e,u as r,o as n}from"./vendor-Dakx4FZ3.js";import"./index-D_qZw2oD.js";const o=s({__name:"404",setup(s){const o=a({title:"404",desc:"抱歉，你访问的页面不存在",btnText:"返回首页",imgUrl:"/art-design-pro/assets/404-Zjuae4tx.png"});return(s,a)=>{const d=t;return n(),e(d,{data:r(o)},null,8,["data"])}}});export{o as default};
